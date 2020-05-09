@@ -53,9 +53,9 @@ layout: true
 
 <BR>
 
-#### Slides : `r paste0("https://gidoin.github.io/enalocalgov/", params$slug)`
+#### Slides : `r paste0("https://gidoin.github.io/learnrsimply/", params$slug)`
 
-#### Sources : `r paste0("https://github.com/Gidoin/enalocalgov/")`
+#### Sources : `r paste0("https://github.com/Gidoin/learnrsimply/")`
 
 This production is freely reusable under the terms of the licence  [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
 
