@@ -8,10 +8,10 @@ output:
     css: [default, ena, sciencespo-fonts]
     lib_dir: libs
     nature:
+      BeforeInit: ["js/macros.js"]
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
-      beforeInit: "macros.js"
       slideNumberFormat: |
         <div class="progress-bar-container">
           <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
@@ -59,78 +59,31 @@ layout: true
 
 This production is freely reusable under the terms of the licence  [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
 
-.center[ *** Those slides were partly designed and inspired by the work of my teammates at Datactivist, I warmly thank them. ***]
+.center[ *** Those slides were partly designed and inspired by the work of my teammates at Datactivist, I warmly thank them and especially [Joël Gombin](https://twitter.com/joelgombin) who taught me the basics of R and gave me the envy to learn further ***]
 
 <BR>
 
 .center[<img src="./img/ccbysa.png" height="100"/>] 
 
 ---
-## Who am I ?
+## Why R for newbies ?
 
-.center[<img src="./img/phototim.jpg" height="300"/>]
-.center[[**Timothée Gidoin**](https://www.linkedin.com/in/timoth%C3%A9e-gidoin-49518880/)]
-.center[[*Twitter: @TGidoin*](https://twitter.com/Tgidoin)]
+First of all because I am a beginner in R and I want to improve my own R skills. And the best way I found in order to really go back to learning and practising was to give myself this objective : **being able to create a R course for beginners with simple terms and concrete examples.**
 
+This course may be a bit unconventional in its continuity and won't fit for people that already have some coding background. It's more designed for social or political science students without preexisting data science knowledge and it aims to give a good overview of R possibilities with **practical tips, intuitive terms and a step-by-step approach.**
 
-- [**Datagora**](www.datagora.fr) cofounder
-- Open Data consultant at [**Datactivist**](https://datactivist.coop)
-- Lecturer at Sciences Po Paris and Sciences Po Saint-Germain-en-Laye
-- Open Government consultant (**.red[Expertise France]**)
+I also want to **make some links between open data and R** and demonstrate with use cases that anyone with basics analytical skills and knowledge on where to find relevant datasets may really take value from open data initiatives.
+
+I hope it will be as useful for others as it is for me. Feel free to [contact me](mailto:timothee.gidoin@sciencespo.fr) in case you have any questions or remarks !
 
 ---
-## Datagora
+## Plan 
 
-[Datagora](https://datagora.fr) is a French initiative that aims to **gather different type of official reliable sources** in one non-profit making platform.
-We have many statistical institutes (such as OECD, Insee...) that currently feed our platform with their recent publications (in French).
+### .red[**1. Coding in R, what for ?**]
 
-We are part of **.red[Democratie Ouverte]** ecosystem and alumni of its incubator.
+###.red[**2. Installing R and R Studio**]
 
-[.center[<img src="./img/datagora1.png" height = "300" />]](www.datagora.fr)
-
----
-## Datactivist 
-
-[![](https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/logo.png)](https://datactivist.coop)
-
-<BR>
-
-Datactivist is an .red[**open data pure player**] founded in 2016. 3 main activities :
-
-- Consulting on .red[**open data strategies**] : we help public actors to design and implement their open data strategy 
-
-- .red[**Assistance on open data usages**] : we help public actors to find relevant usages for their open data
-
-- .red[**Data mediation**] : we organize hackathons, open data camps, data expeditions...
-
-Data mediation is fundamentally a question of **community management** : that's why we animate the French open data community [#TeamOpenData](https://teamopendata.org).
-
----
-class: inverse, center, middle
-
-## And you, who are you ?
-
-
----
-## What we will cover together 
-
-.red[**9.30 - 10.45 am : Open Government**]
-- **Open Government** : principles and mechanisms
-- How does OGP work and its impact in South Africa
-- The three pillar of OpenGov (Part 1 : Participation & Accountability)
-
-
-*Coffee break : 10.45am*
-
-.red[**11.00 - 12.15 pm : Workshop to identify SA democratic challenges**]
-- Identify key South African public challenges
-- Select one challenge that you can work on back in SA
-
-*Lunch break : 12.15 - 14.00 pm*
-
-.red[**14.00 - 15.15 pm : Open Data, the link between Transparency and Governance**]
-
-- The three pillar of OpenGov (Part 2 : focus on Open Data)
+###.red[**3. Discovering R **]
 
 ---
 class: inverse, center, middle
