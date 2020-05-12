@@ -1,5 +1,5 @@
 ---
-title: "Part 1 - Start-up"
+title: "Part 1 - Startup"
 subtitle: "R for newbies"
 author: "Timothée Gidoin"
 date: "`r Sys.Date()`"
@@ -18,7 +18,7 @@ output:
           </div>
         </div>
 params:
-  event: R for newbies - Part 1 - Initialisation
+  event: R for newbies - Part 1 - Startup
   slug: startup.html
 ---
 
