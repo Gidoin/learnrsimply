@@ -1,0 +1,101 @@
+---
+title: "Partie 1 - Démarrage"
+subtitle: "R pour les Ruls"
+author: "Timothée Gidoin"
+date: "`r Sys.Date()`"
+output:
+  SlidesDatactivist::moon_reader:
+    css: [default, ena, sciencespo-fonts]
+    lib_dir: libs
+    nature:
+      BeforeInit: ["js/macros.js"]
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+params:
+  event: R pour les Ruls - Partie 1 - Démarrage
+  slug: demarrage.html
+---
+
+layout: true
+
+<style>
+.remark-slide-number {
+  position: inherit;
+}
+
+.remark-slide-number .progress-bar-container {
+  position: absolute;
+  bottom: 0;
+  height: 5px;
+  display: block;
+  left: 0;
+  right: 0;
+}
+
+.remark-slide-number .progress-bar {
+  height: 100%;
+  background-color: #006D6A;
+}
+
+</style>
+
+
+`r paste0("<div class='my-footer'><span>", params$event, "</span> <center><div class=logo><img src='", system.file('rmarkdown', 'templates', 'xaringan', 'resources', 'img', 'accidents.png', package='SlidesDatactivist'), "' width='100px'></center></span></div>")` 
+ 
+---
+## Avant de démarrer
+
+
+#### Slides : `r paste0("https://gidoin.github.io/learnrsimply/", params$slug)`
+
+#### Sources : `r paste0("https://github.com/Gidoin/learnrsimply/")`
+
+This production is freely reusable under the terms of the licence  [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
+
+.center[ *** Le contenu de ces slides est en grande partie la synthèse et la récupération de contenus créés par d'autres, que je m'efforcerais de lister systématiquement. Je tiens à remercier mes camarades de Datactivist, et notamment [Joël Gombin](https://twitter.com/joelgombin) qui m'a appris les rudiments de R et m'a donné envie d'aller plus loin dans son apprentissage ***]
+
+<BR>
+
+.center[<img src="./img/ccbysa.png" height="100"/>] 
+
+---
+## Pourquoi R pour les ~~N~~ Ruls ?
+
+Tout d'abord parce que je cherche à améliorer mes propres compétences en R. Et le meilleur moyen que j'ai trouvé pour cela, après une longue période de procrastination, c'était de me donner cet objectif : **créer un cours complet sur R, à destination des débutants (en premier lieu, moi-même), en utilisant des termes simples et des exemples concrets**.
+
+Ce cours peut ne pas être tout à fait conventionnel et sa progression ne conviendra pas à tout le monde, en particulier celles et ceux qui savent déjà coder. Cette formation est davantage pensée pour des étudiants en sciences sociales, sans connaissances particulières en analyse de données, et elle vise à donner un bon aperçu des possibilités de R à travers **une approche très progressive, avec des termes simples et des conseils pratiques.**
+
+J'aimerais aussi en profiter pour faire des ponts avec l'**open data**, et montrer, via des études de cas concrètes, qu'il est possible d'en retirer immédiatement de la valeur avec seulement quelques connaissances en analyse de données.
+
+J'espère que ce cours sera aussi utile pour les autres qu'il le sera pour moi. N'hésitez pas à me [contacter](mailto:timothee.gidoin@sciencespo.fr) si vous avez des questions ou des remarques.
+
+---
+## Plan 
+
+### .red[**1. R, pour quoi faiR ?**]
+
+###.red[**2. Installer R et R Studio**]
+
+###.red[**3. Découvrir R **]
+
+---
+class: inverse, center, middle
+
+# R, pour quoi faiR ?
+
+---
+
+## Titre
+
+---
+class: inverse, center, middle
+
+# Merci !
+
+Contact : [timothee.gidoin@sciencespo.fr](mailto:timothee.gidoin@sciencespo.fr)
